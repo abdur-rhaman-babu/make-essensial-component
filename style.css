@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    letter-spacing:0%;
+}
+
+#hero-section{
+    height:735px;
+    background: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('/assets/hero-bg.png');
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+}
+
+#hero-section .hero-content{
+    max-width:820px;
+}
+
+#hero-section .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 38px;
+    opacity: 0.8;
+}
+
+#hero-section .hero-content .heading{
+    color: rgb(255, 255, 255);
+    font-size: 51px;
+    font-weight: 700;
+    line-height: 64px;
+}
+
+#hero-section .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 23px;
+    opacity: 0.7;
+}
+
+#hero-section .hero-content .hero-btn{
+color: rgb(255, 255, 255);
+font-size: 16px;
+font-weight: 600;
+line-height: 18.5px;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+border:none;
+padding:17px 25px;
+margin:26px 0;
+}
+
+
