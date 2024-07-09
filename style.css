@@ -6,6 +6,7 @@
     box-sizing:border-box;
     font-family: "Poppins", sans-serif;
     letter-spacing:0%;
+    text-decoration:none;
 }
 
 #hero-section{
@@ -57,5 +58,129 @@ border:none;
 padding:17px 25px;
 margin:26px 0;
 }
+
+
+
+
+/* .........................card-section................................ */
+#card-section{
+    max-width:1536px;
+    margin:150px auto;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:40px;
+    color: rgb(16, 16, 16);
+}
+
+#card-section .card-heading{
+    display: flex;
+    align-items:center;
+    text-align:center;
+    flex-direction:column;
+    color: rgb(16, 16, 16);
+}
+
+#card-section .card-heading .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 21px;
+    opacity: 0.6;
+    margin-bottom:16px;
+}
+
+#card-section .card-heading .card-subtitle{
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 50px;
+    width:560px;
+    margin-bottom:40px;
+}
+
+#card-section .card-content {
+    width:1056px;
+}
+
+#card-section .card-content .card-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:19px;
+}
+
+#card-section .card-content .card-container .single-card{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:26px;
+    width:327px;
+    text-align:center;
+}
+
+#card-section .card-content .card-container .single-card img{
+    width:100%;
+}
+
+#card-section 
+.card-content 
+.card-container 
+.single-card 
+.food-title{
+    padding:11px 26px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+#card-section 
+.card-content 
+.card-container 
+.single-card 
+.food-title a{
+    color: rgb(16, 16, 16);
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+}
+
+#card-section 
+.card-content 
+.card-container 
+.single-card 
+.food-discount{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 37px;
+}
+
+#card-section 
+.card-content 
+.card-container 
+.single-card 
+.food-description{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23px;
+    opacity: 0.7;
+}
+
+.card-content .card-button{
+    text-align:center;
+    margin:50px 0;
+}
+
+.card-content .card-button button{
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 17px;
+    padding:15px 26px;
+    border:none;
+}
+
+
 
 
